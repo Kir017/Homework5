@@ -1,0 +1,15 @@
+C:\repo\Work_Csharp\Homework5\task_1\bin\Debug\net6.0\task_1.exe
+C:\repo\Work_Csharp\Homework5\task_1\bin\Debug\net6.0\task_1.deps.json
+C:\repo\Work_Csharp\Homework5\task_1\bin\Debug\net6.0\task_1.runtimeconfig.json
+C:\repo\Work_Csharp\Homework5\task_1\bin\Debug\net6.0\task_1.dll
+C:\repo\Work_Csharp\Homework5\task_1\bin\Debug\net6.0\task_1.pdb
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.csproj.AssemblyReference.cache
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.AssemblyInfoInputs.cache
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.AssemblyInfo.cs
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.csproj.CoreCompileInputs.cache
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.dll
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\refint\task_1.dll
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.pdb
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\task_1.genruntimeconfig.cache
+C:\repo\Work_Csharp\Homework5\task_1\obj\Debug\net6.0\ref\task_1.dll
