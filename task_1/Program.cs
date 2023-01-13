@@ -28,13 +28,10 @@ string PrintArray(int[] prArray)
 }
 int[] CountMult(int[] colection)
 {
-  int mult = 0;
   int[] arrayMult = new int[colection.Length / 2];
   for (int i = 0; i < colection.Length / 2; i++)
   {
-    mult = colection[i] * colection[colection.Length - 1 - i];
-    // Console.WriteLine(mult);
-    arrayMult[i] = mult;
+    arrayMult[i] = colection[i] * colection[colection.Length - 1 - i];
   }
   return arrayMult;
 }

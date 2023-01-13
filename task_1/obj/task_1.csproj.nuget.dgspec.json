@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repo\\Work_Csharp\\Homework5\\task_1\\task_1.csproj": {}
+    "C:\\repo\\Homework\\Homework5\\task_1\\task_1.csproj": {}
   },
   "projects": {
-    "C:\\repo\\Work_Csharp\\Homework5\\task_1\\task_1.csproj": {
+    "C:\\repo\\Homework\\Homework5\\task_1\\task_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\Work_Csharp\\Homework5\\task_1\\task_1.csproj",
+        "projectUniqueName": "C:\\repo\\Homework\\Homework5\\task_1\\task_1.csproj",
         "projectName": "task_1",
-        "projectPath": "C:\\repo\\Work_Csharp\\Homework5\\task_1\\task_1.csproj",
-        "packagesPath": "C:\\Users\\kir01\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\Work_Csharp\\Homework5\\task_1\\obj\\",
+        "projectPath": "C:\\repo\\Homework\\Homework5\\task_1\\task_1.csproj",
+        "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Homework\\Homework5\\task_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kir01\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
