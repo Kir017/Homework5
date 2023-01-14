@@ -1,42 +1,35 @@
 ﻿// Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, 
 // второй и предпоследний и т.д. Результат запишите в новом массиве.
 
-
-int[] CreateArr()
+int[] CreateFillArray() 
 {
-  int number = Random.Shared.Next(10, 20);
-  int[] createdArray = new int[number];
-  return createdArray;
-}
-void FillArray(int[] filledArray)
-{
-  int count = filledArray.Length;
-  for (int i = 0; i < count; i++)
-  {
-    filledArray[i] = Random.Shared.Next(10);
-  }
+    Console.Write("Введите длину массива: ");
+    int[] createdArray = new int[Convert.ToInt32(Console.ReadLine())];
+    for (int i = 0; i < createdArray.Length; i++)
+    {
+        createdArray[i] = Random.Shared.Next(10);
+    }
+    return createdArray;
 }
 string PrintArray(int[] prArray)
 {
-  string output = String.Empty;
-  int size = prArray.Length;
-  for (int i = 0; i < size; i++)
-  {
-    output = output + $"{prArray[i]} ";
-  }
-  return output;
+    string output = String.Empty;
+    for (int i = 0; i < prArray.Length; i++)
+    {
+        output = output + $"{prArray[i]} ";
+    }
+    return output;
 }
 int[] CountMult(int[] colection)
 {
-  int[] arrayMult = new int[colection.Length / 2];
-  for (int i = 0; i < colection.Length / 2; i++)
-  {
-    arrayMult[i] = colection[i] * colection[colection.Length - 1 - i];
-  }
-  return arrayMult;
+    int[] arrayMult = new int[colection.Length / 2];
+    for (int i = 0; i < colection.Length / 2; i++)
+    {
+        arrayMult[i] = colection[i] * colection[colection.Length - 1 - i];
+    }
+    return arrayMult;
 }
-int[] arrayNumbers = CreateArr();
-FillArray(arrayNumbers);
+int[] arrayNumbers = CreateFillArray();
 string Print = PrintArray(arrayNumbers);
 Console.WriteLine(Print);
 int[] arrayResult = CountMult(arrayNumbers);
