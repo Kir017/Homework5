@@ -31,8 +31,8 @@ int[] CountMult(int[] colection)
 }
 int[] arrayNumbers = CreateFillArray();
 string print = PrintArray(arrayNumbers);
-Console.WriteLine(Print);
+Console.WriteLine(print);
 int[] arrayResult = CountMult(arrayNumbers);
 string print2 = PrintArray(arrayResult);
 Console.WriteLine();
-Console.WriteLine(Print2);
+Console.WriteLine(print2);
