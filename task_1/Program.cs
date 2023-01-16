@@ -30,9 +30,9 @@ int[] CountMult(int[] colection)
     return arrayMult;
 }
 int[] arrayNumbers = CreateFillArray();
-string Print = PrintArray(arrayNumbers);
+string print = PrintArray(arrayNumbers);
 Console.WriteLine(Print);
 int[] arrayResult = CountMult(arrayNumbers);
-string Print2 = PrintArray(arrayResult);
+string print2 = PrintArray(arrayResult);
 Console.WriteLine();
 Console.WriteLine(Print2);
